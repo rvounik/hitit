@@ -59,12 +59,13 @@ const App = () => {
 
     const getResultOutput = () => {
         const output = [];
+
         let hiScore = null;
 
         for (let i = 1; i <= numPlayers; i++) {
             const score = getAverage(scores[i]);
 
-            if (!hiScore || scores[hiScore] > score) {
+            if (!hiScore || getAverage(scores[hiScore]) > score) {
                 hiScore = i;
             }
 
