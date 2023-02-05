@@ -81,7 +81,7 @@ const Game = props => {
     const getWrittenScore = score => {
         let message = 'Are you even trying?';
 
-        if (score < 5) {message = 'Try watching your screen next time?'}
+        if (score < 5) {message = 'Are you paying attention?'}
         if (score < 2) {message = 'Very slow!'}
         if (score < 1) {message = 'Keep practicing'}
         if (score < 0.75) {message = 'This is slow'}
@@ -146,7 +146,7 @@ const Game = props => {
     }
 
     return <View style={styles.wrapper}>
-        <ImageBackground source={require('./../../../assets/images/background.png')} resizeMode="cover" style={styles.imageBackground}>
+        <ImageBackground source={require('./../../../assets/images/background_pattern.png')} resizeMode="stretch" style={styles.imageBackground}>
             {getStepOutput()}
         </ImageBackground>
     </View>

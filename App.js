@@ -88,7 +88,7 @@ const App = () => {
     if (scene === Scenes.TITLE) {
         return (
                 <View style={styles.wrapper}>
-                    <ImageBackground source={require('./src/assets/images/background.png')} resizeMode="cover" style={styles.imageBackground}>
+                    <ImageBackground source={require('./src/assets/images/background_pattern.png')} resizeMode="stretch" style={styles.imageBackground}>
                     <View style={[styles.screen_menu, {width: windowDimensions.width}]}>
                         <Image source={require('./src/assets/images/hit_it_logo.png')} style={{marginTop: 50, width: '100%', height: '20%'}}/>
 
@@ -134,6 +134,7 @@ const App = () => {
 
                     <View style={styles.footer}>
                         <Text style={styles.text_footer}>Hit it is based on the game Mik 'em! written by rvo in 1994</Text>
+                        <Text style={styles.text_footer}>v1.00</Text>
                     </View>
 
                     </ImageBackground>
@@ -150,7 +151,7 @@ const App = () => {
     if (scene === Scenes.SCORE) {
         return (
             <View style={styles.wrapper}>
-                <ImageBackground source={require('./src/assets/images/background.png')} resizeMode="cover" style={styles.imageBackground}>
+                <ImageBackground source={require('./src/assets/images/background_pattern.png')} resizeMode="cover" style={styles.imageBackground}>
                     <View style={[styles.screen_score, {width: windowDimensions.width}]}>
                         <Text style={styles.text_title}>The end result:</Text>
                         <View style={styles.score_section}>
