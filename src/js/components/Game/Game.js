@@ -89,7 +89,7 @@ const Game = props => {
         if (score < 0.5) {message = 'Nice score!'}
         if (score < 0.45) {message = 'What a great score!'}
         if (score < 0.4) {message = 'This is very fast!'}
-        if (score < 0.35) {message = 'You are amazing!'}
+        if (score < 0.35) {message = 'What an amazing score!'}
         if (score < 0.3) {message = 'Wow!! So fast.'}
         if (score < 0.25) {message = 'How did you do that?!'}
         if (score < 0.2) {message = 'Incredible score!!!'}

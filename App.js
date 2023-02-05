@@ -93,7 +93,7 @@ const App = () => {
                         <Image source={require('./src/assets/images/hit_it_logo.png')} style={{marginTop: 50, width: '100%', height: '20%'}}/>
 
                         <View style={styles.menu}>
-                            <Text style={styles.text_title}>How many players are going to hit it?</Text>
+                            <Text style={styles.text_title}>How many players?</Text>
 
                             <View style={styles.button_group_horizontal}>
                                 <Pressable
