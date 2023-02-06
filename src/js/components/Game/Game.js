@@ -118,7 +118,7 @@ const Game = props => {
 
             case 3: // hit it screen
                 stepOutput = <>
-                    <Text style={styles.text_hit_it}>HIT IT!</Text>
+                    <Text style={styles.text_hit_it}>HIT 'IT!</Text>
                     <Pressable
                         onPress={HitSuccess}
                         style={[styles.overlay, {height: windowDimensions.height, width: windowDimensions.width}]}

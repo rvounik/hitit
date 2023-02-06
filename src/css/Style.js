@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         marginTop: 25,
     },
     text_on_dark: {
-        color: 'yellow',
+        color: '#ffde00',
         fontSize: 20,
         fontWeight: 'bold',
         textShadowColor: 'rgba(0, 0, 0, .5)',
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     },
     button_start: {
         marginTop: 25,
-        backgroundColor: 'yellow',
+        backgroundColor: '#ffde00',
         borderRadius: 4,
         padding: 16,
     },
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
     button_player_active: {
-        backgroundColor: 'yellow',
+        backgroundColor: '#ffde00',
         borderRadius: 4,
         padding: 12,
         margin: 5,
@@ -114,8 +114,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     text_hit_it: {
-        color: 'yellow',
-        fontSize: 100,
+        color: '#ffde00',
+        fontSize: 80,
         fontWeight: 'bold',
         textShadowColor: 'rgba(0, 0, 0, .5)',
         textShadowOffset: {width: -1, height: 1},

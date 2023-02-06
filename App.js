@@ -134,7 +134,7 @@ const App = () => {
                     </View>
 
                     <View style={styles.footer}>
-                        <Text style={styles.text_footer}>Hit it is based on the game Mik 'em! written by rvo in 1994</Text>
+                        <Text style={styles.text_footer}>Hit 'it is based on the game Mik 'em! written by rvo in 1994</Text>
                         <Text style={styles.text_footer}>v1.00</Text>
                     </View>
 
